@@ -1,0 +1,9 @@
+
+.icon-user:before { content: '\e800'; } /* '' */
+.icon-users:before { content: '\e801'; } /* '' */
+.icon-cancel-outline:before { content: '\e802'; } /* '' */
+.icon-chat-inv:before { content: '\e803'; } /* '' */
+.icon-female:before { content: '\e804'; } /* '' */
+.icon-male:before { content: '\e805'; } /* '' */
+.icon-cog-alt:before { content: '\e806'; } /* '' */
+.icon-gamepad:before { content: '\f11b'; } /* '' */

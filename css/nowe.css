@@ -1,0 +1,60 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	word-wrap: break-word;
+}
+
+nav#nav
+{
+	position: absolute;
+	left: -75px;
+	width: 75px;
+	height: 800px;
+	background: rgba(105, 90, 120, .3);
+}
+
+nav a.nav-link div.nav-block
+{
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 60px;
+	height: 60px;
+	background: rgba(105, 90, 120, .4);
+	text-align: center;
+	color: rgb(85, 70, 100);
+}
+
+nav a.nav-link div.text
+{
+	display: none;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 60px;
+	height: 60px;
+	background: rgba(105, 90, 120, .4);
+	text-align: center;
+	color: black;
+}
+
+a.nav-link:hover div.text
+{
+	display: block;
+}
+
+a.nav-link:hover div.nav-block
+{
+	display: none;
+}
+
+.nav-button
+{
+	width: 40px;
+	height: 25px;
+	border: 1px solid gray;
+}
+
+#Close
+{
+	display:none;
+}

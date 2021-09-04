@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='PL-pl'>
+	<head>
+		<meta charset='utf-8' />
+		<link rel='stylesheet' href='' />
+		<title>
+			MMORPG - rejestracja
+		</title>
+		<style>
+			.error {
+				background: red;
+			}
+			
+			body{
+				color: yellow;
+			}
+			
+			.blad{
+				color: red;
+			}
+		</style>
+	</head>
+	<body bgcolor='gray'>
+		<form method='POST' action='rejestracja.php'>
+			<label>
+				Login*:<br />
+				<input type='text' id='login' name='login' required />
+				<span id='bladLogin' class='blad'></span>
+			</label><br />
+			<label>
+				Hasło*:<br />
+				<input type='password' class='pass' id='pass1' name='pass1' required />
+				<span id='bladPass1' class='blad'></span>
+			</label><br />
+			<label>
+				Powtórz hasło*:<br />
+				<input type='password' class='pass' id='pass2' name='pass2' required />
+				<span id='bladPass2' class='blad'></span>
+			</label><br />
+			<button type='submit'>
+				Zarejestruj się
+			</button>
+		</form>
+		<p>
+			Prawidłowo utworzone hasło powinno składać się z co najmniej:
+			<ul>
+				<li>8 znaków</li>
+				<li>1 liczby</li>
+				<li>2 dużych liter</li>
+			</ul>
+		</p>
+		<script type='text/javascript' src='jquery-3.5.1.min.js'></script>
+		<script type='text/javascript' src='rejestracja.js'></script>
+	</body>
+</html>

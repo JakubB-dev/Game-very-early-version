@@ -1,0 +1,544 @@
+body
+{
+	background-color: rgba(105, 90, 120, .6);
+	font-family: Georgia;
+}
+
+form.l_r
+{
+	width: 25%;
+}
+
+.l_r
+{
+	background-color: rgba(105, 90, 120, .3);
+	width: 75%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+form.game
+{
+	background-color: rgba(105, 90, 120, .3);
+	width: 75%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+h1
+{
+	text-transform: uppercase;
+}
+
+h2
+{
+	margin: 0 auto;
+	text-align: center;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+}
+
+
+select, input.green
+{
+	background-color: rgba(0, 255, 0, .2);
+	padding: 7px;
+	padding-right: 15px;
+	border: 0;
+	border-radius: 10px 10px;
+	font-size: 15px;
+}
+
+input
+{
+	background-color: rgba(105, 90, 120, .6);
+	padding: 7px;
+	padding-right: 15px;
+	border: 0;
+	border-radius: 400px 400px;
+	font-size: 15px;
+}
+
+button
+{
+	font-size: 20px;
+	color: white;
+	width: 200px;
+	height: 55px;
+	background: linear-gradient(90deg, rgba(153, 51, 255, .1) 0%, rgba(128, 0, 255, .1) 100%);
+}
+
+.content
+{
+	text-align: center;
+	padding: 10px;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color: rgba(105, 90, 120, .3);
+}
+
+span.logout, h1.title
+{
+	display: inline-block;
+}
+
+span.logout
+{
+	width: 120px;
+	background-color: rgb(100, 50, 50);
+	float: right;
+}
+
+a.logout
+{
+	color: rgb(200, 0, 0);
+}
+
+label.number
+{
+	display: inline-block;
+	width: 20px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+button.submit
+{
+	border: 1px solid black;
+	font-size: 16px;
+	color: black;
+	width: 160px;
+	height: 30px;
+	background: linear-gradient(90deg, rgba(153, 51, 255, .1) 0%, rgba(128, 0, 255, .1) 100%);
+}
+
+div.messa
+{
+	margin: 30px;
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	background-color: rgba(105, 90, 120, .6);
+	text-align: justify;
+}
+
+div.czat
+{
+	border: 1px solid rgb(125, 110, 140);
+	max-height: 600px;
+	overflow: auto;
+}
+
+textarea.wysylanie
+{
+	width: 90%;
+	max-width: 90%;
+	min-width: 50%;
+	height: 200px;
+	min-height: 50px;
+	max-height: 300px;
+	background-color: rgba(125, 110, 140, .6);
+	font-family: Georgia;
+	font-size: 16px;
+	padding: 6px;
+}
+
+label.wysylanie
+{
+	font-size: 21px;
+	font-family: Calibri;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+form.chat
+{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+hr
+{
+	width: 95%;
+	border: 1px dashed rgb(125, 110, 140);
+}
+
+div.osoby
+{
+	text-align: center;
+	display: inline-block;
+	width: 40%;
+	margin: 15px;
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	background-color: rgba(105, 90, 120, .6);
+}
+
+a.menu
+{
+	background-color: rgba(125, 110, 140, .6);
+	display: inline-block;
+	width: 30%;
+	height: 30px;
+	padding: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	border: 1px solid gray;
+}
+
+div.liczba
+{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 20%;
+	border: 1px solid gray;
+	border-radius: 10px;
+	background-color: rgba(105, 90, 120, .6);
+}
+
+div.EQ
+{
+	margin: 0 auto;
+	height: 55%;
+}
+
+div.enemy
+{
+	margin: 24px;
+	font-size: 14px;
+	border: 1px solid gray;
+	float: left;
+	padding: 5px;
+	width: 41%;
+	height: 90%;
+	display: inline-block;
+}
+
+div.enemy button
+{
+	vertical-align: bottom;
+}
+
+div.photo
+{
+	margin: 0 auto;
+	width: 90%;
+	height: 40%;
+	border-bottom: 1px solid black;
+}
+
+img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+div.slot
+{
+	margin: 1px;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 90%;
+	background-color: rgba(105, 90, 120, .4);
+	cursor: pointer;
+}
+
+div.new_postac
+{
+	font-size: 150px;
+	font-family: georgia;
+	width: 200px;
+	height: 200px;
+	background-color: gold;
+	margin: 30px;
+	border: 1px solid black;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+form.form
+{
+	font-family: georgia;
+	color: white;
+	width: 80%;
+	text-align: center;
+	margin-top: 50px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+div.postac
+{
+	font-family: georgia;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: gold;
+	margin: 30px;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 6px;
+}
+
+#hero_add
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: url(../Obrazki/tlo.png);
+	border: 1px solid gold;
+	border-radius: 6px;
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+div.profesja
+{
+	background: url(../Obrazki/prof.png);
+	border: 1px solid rgba(0, 255, 0, .2);
+	width: 20%;
+	height: 200px;
+	display: inline-block;
+	overflow: hidden;
+	transition: all 0.3s;
+	margin: 20px;
+}
+
+div.profesja:hover
+{
+	transform: scale(1.02) rotate(1deg);
+}
+
+img.profesja
+{
+	margin-top: 14px;
+	height: 180px;
+}
+
+button.enter
+{
+	border: 0;
+	border-radius: 10px;
+	color: black;
+	font-family: georgia;
+	font-size: 12px;
+	width: 100px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 10px;
+	background: rgba(0, 0, 0, .1);
+	cursor: pointer;
+}
+
+.close_x
+{
+	font-size: 25px;
+	float: right;
+	color: red;
+	margin: 20px;
+	cursor: pointer;
+}
+
+div.od1, div.od2
+{
+	width: 95%;
+	padding: 5px;
+}
+
+div.od1
+{
+	color: rgba(255, 170, 56, .7);
+	text-align: right;
+}
+
+div.od2
+{
+	text-align: left;
+}
+
+div#chatowanie
+{
+	display: inline-block;
+	height: 100%;
+	width: 300px;
+	background-color: rgba(105, 90, 120, .6);
+	overflow: auto;
+}
+
+div.exp
+{
+	position: relative;
+	border-radius: 20px;
+	height: 13px;
+	background: rgb(144,125,0);
+	background: linear-gradient(0deg, rgba(144,125,0,1) 0%, rgba(200,171,0,1) 50%, rgba(135,111,0,1) 100%);
+}
+
+div.zycie
+{
+	position: relative;
+	border-radius: 20px;
+	height: 13px;
+	background: rgb(122,22,22);
+	background: linear-gradient(0deg, rgba(122,22,22,1) 0%, rgba(186,15,15,1) 50%, rgba(136,21,21,1) 100%);
+}
+
+div.item_tip
+{
+	position: absolute;
+	top: 0;
+	left: 60px !important;
+	height: 90%;
+	width: 100% !important;
+	line-height: 60px;
+}
+
+div.pasek
+{
+	position: relative;
+	border: 1px solid black;
+	border-radius: 20px;
+	width: 200px;
+	height: 13px;
+	margin: 0 auto;
+	font-size: 11px;
+	font-family: Georgia;
+}
+
+div#left
+{
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	background-color: rgba(105, 90, 120, .6);
+	overflow: scroll;
+}
+
+div#right
+{
+	display: inline-block;
+	margin: 0 auto;
+	width: 25%;
+	height: 100%;
+	background-color: rgba(105, 90, 120, .6);
+	overflow: scroll;
+}
+
+div.walka
+{
+	position: absolute;
+	width: 74%;
+	height: 75%;
+	background-color: black;
+	opacity: .8;
+	display: none;
+}
+
+
+
+
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100%;
+  height: 20px;
+  font-size: 15px;
+  color: red;
+  background-color: rgba(0, 0, 0, .7);
+  text-align: center;
+  padding: 2px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 30%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.7s;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+ 
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
+
+
+main 
+{
+	font-family: "Heebo", sans-serif;
+}
+
+.intro 
+{
+	background: black;
+	position: fixed;
+	top: 20%;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.slider {
+	background: rgba(105, 90, 120, .6);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transform: translateY(100%);
+}
+
+.intro-text {
+	color: rgb(233, 233, 233);
+	font-family: "Heebo", sans-serif;
+	font-size: 3rem;
+}
+
+.hide {
+	background: black;
+	overflow: hidden;
+}
+
+.hide span {
+	transform: translateY(100%);
+	display: inline-block;
+}

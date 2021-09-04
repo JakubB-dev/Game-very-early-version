@@ -1,0 +1,3 @@
+SELECT konta.login, przedmioty.nazwa, rzadkosc FROM konta, konta_gry, przedmioty WHERE (konta_gry.bron_1 = przedmioty.id OR konta_gry.bron_2 = przedmioty.id) AND konta_gry.id_gracza = konta.id AND id_gracza = 17
+
+Przedmioty
